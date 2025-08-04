@@ -23,7 +23,7 @@ The approach combines k-means clustering with a genetic algorithm to minimize la
 1. Clone the repository:
 ```bash
 git clone https://github.com/maziyar-redox/implementing-genetic-clustering-algorithm
-cd genetic-clustering-iot
+cd implementing-genetic-clustering-algorithm
 ```
 
 2. Install the required packages:
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Run the main script to execute the genetic-based clustering algorithm:
 
 ```bash
-python genetic_clustering_iot.py
+python main.py
 ```
 
 The script will:
@@ -55,9 +55,11 @@ You can modify the following parameters in the script:
 ## Project Structure
 ```
 genetic_clustering_iot/
-├── genetic_clustering_iot.py  # Main implementation script
+├── main.py  # Main implementation script
 ├── requirements.txt           # Required Python packages
-└── README.md                  # Project documentation
+├── README.md                  # Project documentation
+├── .gitignore                  # Project gitignore
+└── LICENSE                  # Project LICENCE(mit)
 ```
 
 ## Results
